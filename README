@@ -1,0 +1,43 @@
+DrTM
+======
+This is the repository of our prototype database system of the paper fast in-memory transaction processing using rdma and rtm.
+DrTM exploits advanced hardeare features such as HTM (Hardware Transactional Memory) and RDMA (Remote Directly Memory Access) to execute distributed transactions.DrTM achieves high performance by offloading the transaction's execution to a local processor using HTM, and uses RDMA to support distributed transactions.
+Here is a single machine version of DrTM which we use different strategy for fallback handler.
+
+For more information,visit: http://ipads.se.sjtu.edu.cn/drtm.html
+
+
+Dependencies 
+------------
+
+* zeromq 4.0.5 or higher 
+* Intel processors with RTM enabled 
+* Mellanox OFED v3.0-2.0.1 stack or higher 
+* ptpd 
+* SSMalloc
+
+Compiling
+---------
+
+At main directory, use
+   make clean;make C=3 dbtest -j
+
+We recommend using make’s parallel build feature to accelerate the compilation
+process.
+
+After the compilation,you will get an execuatable file named dbtest.
+
+
+How to use
+---------
+Here is an example of starting an TPCC test.
+./dbtest --bench tpcc --db-type ndb-proto2 --num-threads 8 --scale-factor 8 --txn-flags 1 --ops-per-worker 500000 --bench-opts "--w 45,43,4,4,4 -r 1" --verbose --retry-aborted-transactions 
+
+Acknowledgments 
+---------------
+
+Some part of DrTM's codebase follows from [Silo](https://github.com/stephentu/silo) and [leveldb](https://github.com/google/leveldb).
+
+
+
+
