@@ -1,0 +1,44 @@
+1.
+install zeromq from here
+	http://zeromq.org/intro:get-the-software
+
+2.
+add c++ binding for zeromq
+	download the zmq.hpp from here
+		https://github.com/zeromq/cppzmq
+	put it at the include folder
+		for example, install zeromq at ~/local/lib/ and put zmq.hpp at ~/local/lib/include
+
+3.
+modify following ip addresses to the correct ip addresses (network_node.h: line 33)
+
+    net_def.push_back("10.0.0.100");
+    net_def.push_back("10.0.0.101");
+    net_def.push_back("10.0.0.102");
+    net_def.push_back("10.0.0.103");
+    net_def.push_back("10.0.0.104");
+    net_def.push_back("10.0.0.105");
+4.
+make 
+
+if you want to use 4 clients to do the micro benchmark
+execute following commands on all machines
+	./micro machineid total_machine
+
+for example :
+	machine0$ ./micro 0 5 
+	machine1$ ./micro 1 5 
+	machine2$ ./micro 2 5 
+	machine3$ ./micro 3 5 
+	machine4$ ./micro 4 5 
+
+last machine (machine 4) will print the final result:
+total throughput	12833654
+
+5.
+basic library:
+	network_node.h,rdma_lib.cc,rdma_resource.h 
+different hashtable:
+	rdma_hashext.h,rdma_cuckoohash.h,rdma_hophash.h  
+main file:
+	rdma_micro.cc  
