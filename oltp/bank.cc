@@ -22,6 +22,12 @@
  *
  */
 
+/*
+ *  Transaction  - XingDa 
+ * 
+ */
+
+
 /**
  * An implementation of smallbank based on:
  * https://github.com/apavlo/h-store/tree/master/src/benchmarks/edu/brown/benchmark/smallbank/

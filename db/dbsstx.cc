@@ -22,6 +22,12 @@
  *
  */
 
+/*
+ *  Transactional layer - XingDa
+ *  TimeStamp           - Yanzhe 
+ *
+ */
+
 #include <string>
 #include "dbsstx.h"
 #include <utility>

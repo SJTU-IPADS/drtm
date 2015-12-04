@@ -22,10 +22,19 @@
  *
  */
 
+
+/*
+ *  Transaction         - Hao Qian
+ *  Transaction , bench - XingDa 
+ *  TimeStamp           - Yanzhe 
+ * 
+ */
+
 /**
  * An implementation of TPC-C based off of:
  * https://github.com/oltpbenchmark/oltpbench/tree/master/src/com/oltpbenchmark/benchmarks/tpcc
  */
+
 //final
 
 #include <iostream>

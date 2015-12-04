@@ -22,6 +22,11 @@
  *
  */
 
+/*
+ *  chain hash table using RDMA - JiaXin
+ */ 
+
+
 #ifndef DRTM_MEM_RDMACHAINHASH_H
 #define DRTM_MEM_RDMACHAINHASH_H
 

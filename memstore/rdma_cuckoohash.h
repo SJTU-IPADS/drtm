@@ -22,6 +22,11 @@
  *
  */
 
+/*
+ *  Cuckoo hash table using RDMA  - JiaXin
+ */ 
+
+
 #ifndef RDMACUCKOOHASH_H
 #define RDMACUCKOOHASH_H
 

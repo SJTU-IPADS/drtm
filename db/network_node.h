@@ -22,6 +22,10 @@
  *
  */
 
+/*
+ *  network node    - JiaXin
+ */
+
 #ifndef NETWORK_NODE_H
 #define NETWORK_NODE_H
 

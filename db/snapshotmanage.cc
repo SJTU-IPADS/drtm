@@ -22,6 +22,10 @@
  *
  */
 
+/*
+ *  Epoch Hao Qian
+ *
+ */
 
 #include "snapshotmanage.h"
 #include <assert.h>

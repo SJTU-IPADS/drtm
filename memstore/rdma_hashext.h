@@ -22,6 +22,11 @@
  *
  */
 
+/*
+ *  clustering hash table using RDMA  - JiaXin
+ */ 
+
+
 #ifndef DRTM_MEM_RDMAHASHEXT_H
 #define DRTM_MEM_RDMAHASHEXT_H
 

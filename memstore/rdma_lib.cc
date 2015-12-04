@@ -22,6 +22,10 @@
  *
  */
 
+/*
+ *  RDMA libs - XingDa
+ */
+
 #include "rdma_resource.h"
 #include <errno.h>
 
