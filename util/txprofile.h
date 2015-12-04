@@ -22,12 +22,16 @@
  *
  */
 
-// Copyright (c) 2011 The LevelDB Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file. See the AUTHORS file for names of contributors.
+/*
+ * RTM profiling - Hao Qian
+ * RTM profiling - XingDa
+ * 
+ */
 
-#ifndef STORAGE_LEVELDB_UTIL_TXPROFILE_H_
-#define STORAGE_LEVELDB_UTIL_TXPROFILE_H_
+
+#ifndef DRTM_UTIL_TXPROFILE_H_
+#define DRTM_UTIL_TXPROFILE_H_
+
 #include <immintrin.h>
 #include <pthread.h>
 #include <stdio.h>

@@ -22,8 +22,15 @@
  *
  */
 
-#ifndef STORAGE_LEVELDB_UTIL_RTM_H_
-#define STORAGE_LEVELDB_UTIL_RTM_H_
+
+/*
+ *  RTM UTIL         - Hao Qian
+ *  RTM UTIL         - XingDa
+ */
+
+
+#ifndef DRTM_UTIL_RTM_H_
+#define DRTM_UTIL_RTM_H_
 #include <immintrin.h>
 #include <sys/time.h>
 #include "util/spinlock.h"
