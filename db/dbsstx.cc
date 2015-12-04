@@ -23,8 +23,8 @@
  */
 
 /*
- *  Transactional layer - XingDa
- *  TimeStamp           - Yanzhe 
+ *  Transactional layer of DrTM - XingDa
+ *  TimeStamp  methods          - Yanzhe 
  *
  */
 

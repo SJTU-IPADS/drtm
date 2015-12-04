@@ -24,9 +24,9 @@
 
 
 /*
- *  Transaction         - Hao Qian
- *  Transaction , bench - XingDa 
- *  TimeStamp           - Yanzhe 
+ *  TPCC chopping impl                        - Hao Qian
+ *  TPCC chopping,DrTM method, bench  setting - XingDa 
+ *  Timestamp sync                            - Yanzhe 
  * 
  */
 

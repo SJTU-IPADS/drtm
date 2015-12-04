@@ -23,7 +23,7 @@
  */
 
 /*
- *  Transaction  - XingDa 
+ *  Bank transactions,settings  - XingDa 
  * 
  */
 
