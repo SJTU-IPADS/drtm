@@ -41,7 +41,7 @@ To install ptpd, just use
  apt-get install ptpd;
  service start ptp
 
-SSMalloc can be found at https://github.com/Naruil/SSMalloc .
+SSMalloc can be found at https://github.com/SJTU-IPADS/SSMalloc.
 
 
 
